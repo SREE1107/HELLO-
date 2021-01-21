@@ -1,0 +1,5 @@
+import string
+x=int(input("Enter Starting Value:"))
+y=int(input("Enter Ending Value:"))
+for x, y in zip(range(x,y), string.ascii_uppercase):
+    print(x,y)
