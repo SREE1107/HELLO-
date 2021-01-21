@@ -1,0 +1,14 @@
+str1="Rajesh"
+str2="Ganesh"
+if(str1[0]!=str2[0]):
+    print(str1[0],str2[0])
+if(str1[1]!=str2[1]):
+    print(str1[0],str2[0])
+if(str1[2]!=str2[2]):
+    print(str1[2],str2[2])
+if(str1[3]!=str2[3]):
+    print(str1[0],str2[0])
+if(str1[4]!=str2[4]):
+    print(str1[0],str2[0])
+if(str1[5]!=str2[5]):
+    print(str1[0],str2[0])
