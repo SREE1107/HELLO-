@@ -1,0 +1,8 @@
+def reverse(s):
+    str=""
+    for length in s:
+        str = length + str
+    return str 
+s="PENTAFOX"
+print("the original string is:",s)
+print("the reversed string is:",s[6]+reverse(s))
