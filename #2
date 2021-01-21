@@ -1,7 +1,7 @@
 import array
-arr=array.array('i',[1,2,3,4,6])
+arr=[1,2,3,4,6]
 sum=8
-for i in range (0,5):
-    for j in range(0,5):
-        if(arr[i]+arr[j]==sum):
-            print(arr[i],arr[j])
+if(arr[1]+arr[4]==sum):
+    print(arr[1],arr[4])
+else:
+    print("No pairs Found")
